@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Array Cardio 💪</title>
   <link rel="icon" href="https://fav.farm/🔥" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
@@ -38,6 +39,8 @@
     
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
+    const fifteens = inventors.filter((inventor) => inventors.year < 1500 )
+    console.log(fifteens)
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors first and last names
